@@ -1,5 +1,9 @@
 import * as React from "react"
 
+/**
+ * Textarea component based on shadcn/ui
+ */
+
 import { cn } from "@/lib/utils"
 
 function Textarea({ className, ...props }: React.ComponentProps<"textarea">) {
